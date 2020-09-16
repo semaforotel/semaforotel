@@ -1,0 +1,196 @@
+<div id="goniometria" style="display: none" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+  <!--	  <form action="gravar2" class="form-horizontal" method="post">	    -->
+  <table class="table table-striped" width="53%" border="0">
+    <tr> 
+      <td width="20%"><h4>Articulação</h4></td>
+      <td width="15%"><h4>Movimento</h4></td>
+      <td width="10%"><h4>Direito</h4></td>
+      <td width="10%"><h4>Esquerdo</h4></td>
+      <td width="10%"><h4>Dor</h4></td>
+      <td width="17%"><h4>Anatômico</h4></td>
+      <td><h4>Local da Dor</h4></td>
+    </tr>
+    <tr> 
+      <td rowspan="2">Ombro</td>
+      <td>Flexão (&ordm;)</td>
+      <td>
+	<input th:value="${gonio_1}" type="number" id="gonio_1" name="gonio_1" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_2}" type="number" id="gonio_2" name="gonio_2" class="form-control" autofocus>
+      </td>
+      <td>
+	<select type="number" id="gonio_3" name="gonio_3" class="form-control" autofocus>
+	  <option th:value="${gonio_3}"><p th:text="${gonio_3}"/></option>
+	  <option value="nao">Não</option>
+	  <option value="sim">Sim</option>
+	</select>
+      </td>
+      <td>
+	<input th:value="${gonio_4}" type="text" id="gonio_4" name="gonio_4" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_5}" type="text" id="gonio_5" name="gonio_5" class="form-control" autofocus>
+      </td>
+    </tr>
+    <tr> 
+      <td>Rotação Externa (&ordm;)</td>
+      <td>
+	<input th:value="${gonio_6}" type="number" id="gonio_6" name="gonio_6" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_7}" type="number" id="gonio_7" name="gonio_7" class="form-control" autofocus>
+      </td>
+      <td>
+	<select id="gonio_8" name="gonio_8" class="form-control" autofocus>
+	  <option th:value="${gonio_8}"><p th:text="${gonio_8}"/></option>		    
+	  <option value="nao">Não</option>
+	  <option value="sim">Sim</option>
+	</select>
+      </td>
+      <td>
+	<input th:value="${gonio_9}" type="text" id="gonio_9" name="gonio_9" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_10}" type="text" id="gonio_10" name="gonio_10" class="form-control" autofocus>
+      </td>
+    </tr>
+    <tr> 
+      <td rowspan="2">Quadril</td>
+      <td>Flexão (&ordm;)</td>
+      <td>
+	<input th:value="${gonio_11}" type="number" id="gonio_11" name="gonio_11" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_12}" type="number" id="gonio_12" name="gonio_12" class="form-control" autofocus>
+      </td>
+      <td>
+	<select id="gonio_13" name="gonio_13" class="form-control" autofocus>
+	  <option th:value="${gonio_13}"><p th:text="${gonio_13}"/></option>
+	  <option value="nao">Não</option>
+	  <option value="sim">Sim</option>
+	</select>
+      </td>
+      <td>
+	<input th:value="${gonio_14}" type="text" id="gonio_14" name="gonio_14" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_15}" type="text" id="gonio_15" name="gonio_15" class="form-control" autofocus>
+      </td>
+    </tr>
+    <tr> 
+      <td>Rotação Externa (&ordm;)</td>
+      <td>
+	<input th:value="${gonio_16}" type="number" id="gonio_16" name="gonio_16" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_17}" type="number" id="gonio_17" name="gonio_17" class="form-control" autofocus>
+      </td>
+      <td>
+	<select id="gonio_18" name="gonio_18" class="form-control" autofocus>
+	  <option th:value="${gonio_18}"><p th:text="${gonio_18}"/></option>
+	  <option value="nao">Não</option>
+	  <option value="sim">Sim</option>
+		  </select>
+      </td>
+      <td>
+	<input th:value="${gonio_19}" type="text" id="gonio_19" name="gonio_19" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_20}" type="text" id="gonio_20" name="gonio_20" class="form-control" autofocus>
+      </td>
+    </tr>
+    <tr> 
+      <td>Joelho</td>
+		<td>Flexão (&ordm;)</td>
+      <td>
+	<input th:value="${gonio_21}" type="number" id="gonio_21" name="gonio_21" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_22}" type="number" id="gonio_22" name="gonio_22" class="form-control" autofocus>
+      </td>
+      <td>	
+	<select id="gonio_23" name="gonio_23" class="form-control" autofocus>		    
+	  <option th:value="${gonio_23}"><p th:text="${gonio_23}"/></option>
+	  <option value="Sim">Sim</option>
+	  <option value="Não">Não</option>		    
+		  </select>
+      </td>
+      <td>
+	<input th:value="${gonio_24}" type="text" id="gonio_24" name="gonio_24" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_25}" type="text" id="gonio_25" name="gonio_25" class="form-control" autofocus>
+      </td>
+    </tr>
+    <tr>		
+      <td rowspan="2">Tornozelo</td>
+      <td>Flexão Dorsal (&ordm;)</td>
+      <td>
+	<input th:value="${gonio_26}" type="number" id="gonio_26" name="gonio_26" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_27}" type="number" id="gonio_27" name="gonio_27" class="form-control" autofocus>
+      </td>
+      <td>
+	<select id="gonio_28" name="gonio_28" class="form-control" autofocus>
+	  <option th:value="${gonio_28}"><p th:text="${gonio_28}"/></option>		    
+	  <option value="nao">Não</option>
+	  <option value="sim">Sim</option>
+	</select>
+      </td>
+      <td>
+	<input th:value="${gonio_29}" type="text" id="gonio_29" name="gonio_29" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_30}" type="text" id="gonio_30" name="gonio_30" class="form-control" autofocus>
+      </td>		
+    </tr>
+    <tr> 
+      <td>Flexão Plantar (&ordm;)</td>
+      <td>
+	<input th:value="${gonio_31}" type="number" id="gonio_31" name="gonio_31" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_32}" type="number" id="gonio_32" name="gonio_32" class="form-control" autofocus>
+      </td>
+      <td>
+	<select th:value="${gonio_33}" id="gonio_33" name="gonio_33" class="form-control" autofocus>
+	  <option th:value="${gonio_33}"><p th:text="${gonio_33}"/></option>		    
+	  <option value="nao">Não</option>
+	  <option value="sim">Sim</option>
+	</select>
+      </td>
+      <td>
+	<input th:value="${gonio_34}" type="text" id="gonio_34" name="gonio_34" class="form-control" autofocus>
+      </td>
+      <td>
+	<input th:value="${gonio_35}" type="text" id="gonio_35" name="gonio_35" class="form-control" autofocus>
+      </td>		
+    </tr>
+    <tr> 
+      <td>Observação:</td>
+      <td colspan="6">
+	<input th:value="${gonio_36}" type="text" id="gonio_36" name="gonio_36" class="form-control" autofocus>
+      </td>
+    </tr>
+    <tr>
+      <td>Sentar e levantar 30':</td>
+      <td colspan="6">
+	<input th:value="${gonio_37}" type="text" id="gonio_37" name="gonio_37" class="form-control" autofocus>
+      </td>
+    </tr>
+    <tr>
+      <td>
+	<button formaction="gravar2" class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button> 
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8">
+	<p style="color: #f44336" th:text="${gonio_log}"/>
+      </td>
+    </tr>
+  </table>
+</div>	
+<!-- -->
+</form>

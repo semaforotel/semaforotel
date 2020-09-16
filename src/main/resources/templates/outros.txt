@@ -1,0 +1,1619 @@
+	<div id="guralnick" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	  <form action="gravar7" class="form-horizontal" method="post">
+	    
+	    <table class="table table-striped" width="53%" border="0">
+	      <tr> 
+		<td width="19%">Equil&iacute;brio</td>
+		<td width="34%">&nbsp;</td>
+		<td width="23%">&nbsp;</td>
+		<td width="12%">&nbsp;</td>
+		<td width="7%">&nbsp;</td>
+		<td width="1%">&nbsp;</td>
+		<td width="1%">&nbsp;</td>
+		<td width="1%">&nbsp;</td>
+		<td width="2%">&nbsp;</td>
+	      </tr>
+	      <tr> 
+		<td>pp</td>
+		<td>
+		  <select>
+		    <option></option>		    
+		    <option>10s = 1 ponto</option>
+		    <option>Não finalizado</option>
+		</select> </td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	      </tr>
+	      <tr> 
+		<td>pse</td>
+		<td>
+		  <select>		    
+		    <option></option>		    		    
+		    <option>10s = 2 pontos</option>
+		    <option>Não finalizado</option>
+		</select> </td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	      </tr>
+	      <tr> 
+		<td>pe</td>
+		<td>
+		  <select>
+		    <option></option>		    
+		    <option>3-9s = 3 pontos</option>
+		    <option>10s = 4 pontos</option>
+		    <option>Não realizou</option>
+		</select> </td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	      </tr>
+	      <tr> 
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	      </tr>
+	      <tr> 
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	      </tr>
+	      <tr> 
+		<td>Levantar e Sentar</td>
+		<td> <div align="left">
+		    <select>
+		      <option></option>		    		      
+		      <option>">= 16"</option>
+		      <option>"7 = 1"</option>
+		      <option>"13"</option>
+		      <option>"7 a 16"</option>
+		      <option>"6 = 2"</option>
+		      <option>"11"</option>
+		      <option>"2 a 13"</option>
+		      <option>"6 = 3"</option>
+		      <option>"<= 11"</option>
+                      <option>"1 =4"</option>
+		      <option>Não realizou</option>
+		    </select>
+		</div></td>
+		<td>
+		  <input type="text" id="gural_5" name="gural_5" class="form-control" autofocus>		  
+		</td>
+				  <td>Observação</td>
+				  <td colspan="5">
+				    <input type="text" id="gural_6" name="gural_6" class="form-control" autofocus>		  
+				  </td>
+	      </tr>
+	      <tr> 
+		<td>Velocidade</td>
+		<td> <div align="left">
+		    <select>
+		      <option></option>		      
+		      <option>">=5"</option>
+		      <option>"7s =1 ponto"</option>
+		      <option>"4"</option>
+		      <option>"1 a 5"</option>
+		      <option>"6s = 2 pontos"</option>
+		      <option>"3"</option>
+		      <option>"2 a 4"</option>
+		      <option>"0s = 3 pontos"</option>
+		      <option>"<= 3"</option>
+				 <option>"1s = 4 pontos"</option>
+		      <option>Não realizou</option>
+		    </select>
+		</div></td>
+		<td>
+		  <input type="text" id="gural_8" name="gural_8" class="form-control" autofocus>
+		</td>
+		<td>&nbsp;</td>
+		<td colspan="5">&nbsp;</td>
+	      </tr>
+	      <tr> 
+		<td>&nbsp;</td>
+		<td><div align="right">Total</div></td>
+		<td>
+		  <input type="text" id="gural_9" name="gural_9" class="form-control" autofocus>		  
+		</td>
+		<td>&nbsp;</td>
+		<td colspan="5">&nbsp;</td>
+	      </tr>
+	      <tr> 
+		<td><div align="left">TUG</div></td>
+		<td> <select>
+		    <option selected>Independente sem alteração de equilíbrio 10s ou -</option>
+		    <option>Independente nas transferências básicas 20s ou -</option>
+		    <option>Dependente AVDs 30s ou +</option>
+		</select> </td>
+		<td>&nbsp;</td>
+		<td><div align="right">Observa&ccedil;&atilde;o</div></td>
+		<td colspan="5">
+		  <input type="text" id="gural_11" name="gural_11" class="form-control" autofocus>		  
+		</td>
+	      </tr>
+	      <tr> 
+		<td>Tempo</td>
+		<td>
+		  <input type="text" id="gural_12" name="gural_12" class="form-control" autofocus>		  		  
+		</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td colspan="5">&nbsp;</td>
+	      </tr>
+	    </table>
+	    <button class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button>
+	  </form>
+	</div>
+	<!-- -->
+
+------------
+Main.java
+
+package br.edu.utfpr;
+
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.context.request.WebRequest;
+
+import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@SpringBootApplication
+public class Main { 
+
+    //Descomentar as 2 (duas) linhas abaixo para usar BD da nuvem Heroku
+    //@Value("${spring.datasource.url}")
+    //private String dbUrl;
+    private String dbUrl = "jdbc:postgresql://127.0.0.1:5432/database?user=lucio&password=lucio";
+
+  @Autowired
+  private DataSource dataSource;
+
+  public static void main(String[] args) throws Exception {
+    SpringApplication.run(Main.class, args);
+  }
+
+    @GetMapping("/")
+    public String index(Model model) {
+	//Faz o mapeamento
+        model.addAttribute("login", new Login());
+	//Retorna ah tela de view -> login.html
+        return "index";
+    }
+    
+    @GetMapping("/login")
+    public String loginForm(Model model) {
+	//Faz o mapeamento
+        model.addAttribute("login", new Login());
+	//Retorna ah tela de view -> index.html
+        return "index";
+    }
+
+    //Precisa do campo 'name' no input do form html
+    @PostMapping("/login")
+    public String loginPost(
+			    @RequestParam("email") String email,
+			    @RequestParam("senha") String senha,
+			    Model model) {
+	model.addAttribute("email", email);
+	model.addAttribute("senha", senha);	
+
+	return "dashboard";
+    }
+
+        //Precisa do campo 'name' no input do form html
+    @PostMapping("/gravar1")
+    public String gravar1(
+			  @RequestParam("ava_1") String ava_1,
+			  @RequestParam("ava_2") String ava_2,
+			  @RequestParam("ava_3") String ava_3,
+			  @RequestParam("ava_4") String ava_4,
+			  @RequestParam("ava_5") String ava_5,
+			  @RequestParam("ava_6") String ava_6,
+			  @RequestParam("ava_7") String ava_7,
+			  @RequestParam("ava_8") String ava_8,
+			  @RequestParam("ava_9") String ava_9,
+			  @RequestParam("ava_10") String ava_10,
+			  @RequestParam("ava_11") String ava_11,
+			  @RequestParam("ava_12") String ava_12,
+			  @RequestParam("ava_13") String ava_13,
+			  @RequestParam("ava_14") String ava_14,
+
+			  Model model) {
+	
+	model.addAttribute("ava_1", ava_1);
+	model.addAttribute("ava_2", ava_2);
+	model.addAttribute("ava_3", ava_3);
+	model.addAttribute("ava_4", ava_4);
+	model.addAttribute("ava_5", ava_5);
+	model.addAttribute("ava_6", ava_6);
+	model.addAttribute("ava_7", ava_7);
+	model.addAttribute("ava_8", ava_8);
+	model.addAttribute("ava_9", ava_9);
+	model.addAttribute("ava_10", ava_10);
+	model.addAttribute("ava_11", ava_11);
+	model.addAttribute("ava_12", ava_12);
+	model.addAttribute("ava_13", ava_13);
+	model.addAttribute("ava_14", ava_14);
+
+	//return "db";  //Essa estah funcionando, mas nao grava ainda
+	try (Connection connection = dataSource.getConnection()) {
+	    Statement stmt = connection.createStatement();
+	    stmt.executeUpdate("create table if not exists avaliacao ( id integer primary key, dataAvaliacao varchar(20), dataNascimento varchar(20), idade integer, nome varchar(80), objetivo varchar(80), exercicios varchar(80), outrasAF varchar(80),  especificar varchar(80), diagnostico varchar(80), medicacao varchar(80), peso float, altura float, imc float, fc float )");
+
+	    stmt.executeUpdate("insert into avaliacao values ( 1, '11/03/2018', '11/03/2018', 12, 'Lucio', 'obj', 'exercicios', 'outrasAF', 'especificar', 'diagnostico', 'medicacao', 1.1, 2.2, 3.3, 4.4 )");
+	    	    
+	    ResultSet rs = stmt.executeQuery("SELECT * FROM avaliacao");	    
+	    ArrayList<String> output = new ArrayList<String>();
+	    while (rs.next()) {
+		output.add("Read from DB: " + (String) rs.getObject(1));
+	    }
+	    
+	    model.put("records", output);
+	    
+	    return "db";
+	} catch (Exception e) {
+	    model.put("message", e.getMessage());
+	    return "error";
+	}	
+	
+	return "dashboard_ficha";  //para travar os campos e exportar para Excel
+    }
+    
+        //Precisa do campo 'name' no input do form html
+    @PostMapping("/finalizar")
+    public String finalizar(
+			  @RequestParam("ava_1") String ava_1,
+			  @RequestParam("ava_2") String ava_2,
+			  @RequestParam("ava_3") String ava_3,
+			  @RequestParam("ava_4") String ava_4,
+			  @RequestParam("ava_5") String ava_5,
+			  @RequestParam("ava_6") String ava_6,
+			  @RequestParam("ava_7") String ava_7,
+			  @RequestParam("ava_8") String ava_8,
+			  @RequestParam("ava_9") String ava_9,
+			  @RequestParam("ava_10") String ava_10,
+			  @RequestParam("ava_11") String ava_11,
+			  @RequestParam("ava_12") String ava_12,
+			  @RequestParam("ava_13") String ava_13,
+			  @RequestParam("ava_14") String ava_14,
+
+			  @RequestParam("gonio_1") String gonio_1,
+			  @RequestParam("gonio_2") String gonio_2,
+			  @RequestParam("gonio_3") String gonio_3,
+			  @RequestParam("gonio_4") String gonio_4,
+			  @RequestParam("gonio_5") String gonio_5,
+			  @RequestParam("gonio_6") String gonio_6,
+			  @RequestParam("gonio_7") String gonio_7,
+			  @RequestParam("gonio_8") String gonio_8,
+			  @RequestParam("gonio_9") String gonio_9,
+			  @RequestParam("gonio_10") String gonio_10,
+			  @RequestParam("gonio_11") String gonio_11,
+			  @RequestParam("gonio_12") String gonio_12,
+			  @RequestParam("gonio_13") String gonio_13,
+			  @RequestParam("gonio_14") String gonio_14,
+			  @RequestParam("gonio_15") String gonio_15,
+			  @RequestParam("gonio_16") String gonio_16,
+			  @RequestParam("gonio_17") String gonio_17,
+			  @RequestParam("gonio_18") String gonio_18,
+			  @RequestParam("gonio_19") String gonio_19,
+			  @RequestParam("gonio_20") String gonio_20,
+			  @RequestParam("gonio_21") String gonio_21,
+			  @RequestParam("gonio_22") String gonio_22,
+			  @RequestParam("gonio_23") String gonio_23,
+			  @RequestParam("gonio_24") String gonio_24,
+			  @RequestParam("gonio_25") String gonio_25,
+			  @RequestParam("gonio_26") String gonio_26,
+			  @RequestParam("gonio_27") String gonio_27,
+			  @RequestParam("gonio_28") String gonio_28,
+			  @RequestParam("gonio_29") String gonio_29,
+			  @RequestParam("gonio_30") String gonio_30,
+			  @RequestParam("gonio_31") String gonio_31,
+			  @RequestParam("gonio_32") String gonio_32,
+			  @RequestParam("gonio_33") String gonio_33,
+			  @RequestParam("gonio_34") String gonio_34,
+			  @RequestParam("gonio_35") String gonio_35,
+			  @RequestParam("gonio_36") String gonio_36,
+			  @RequestParam("gonio_37") String gonio_37,
+			  Model model) {
+	
+	model.addAttribute("ava_1", ava_1);
+	model.addAttribute("ava_2", ava_2);
+	model.addAttribute("ava_3", ava_3);
+	model.addAttribute("ava_4", ava_4);
+	model.addAttribute("ava_5", ava_5);
+	model.addAttribute("ava_6", ava_6);
+	model.addAttribute("ava_7", ava_7);
+	model.addAttribute("ava_8", ava_8);
+	model.addAttribute("ava_9", ava_9);
+	model.addAttribute("ava_10", ava_10);
+	model.addAttribute("ava_11", ava_11);
+	model.addAttribute("ava_12", ava_12);
+	model.addAttribute("ava_13", ava_13);
+	model.addAttribute("ava_14", ava_14);
+
+	model.addAttribute("gonio_1", gonio_1);
+	model.addAttribute("gonio_2", gonio_2);
+	model.addAttribute("gonio_3", gonio_3);
+	model.addAttribute("gonio_4", gonio_4);
+	model.addAttribute("gonio_5", gonio_5);
+	model.addAttribute("gonio_6", gonio_6);
+	model.addAttribute("gonio_7", gonio_7);
+	model.addAttribute("gonio_8", gonio_8);
+	model.addAttribute("gonio_9", gonio_9);
+	model.addAttribute("gonio_10", gonio_10);
+	model.addAttribute("gonio_11", gonio_11);
+	model.addAttribute("gonio_12", gonio_12);
+	model.addAttribute("gonio_13", gonio_13);
+	model.addAttribute("gonio_14", gonio_14);
+	model.addAttribute("gonio_15", gonio_15);
+	model.addAttribute("gonio_16", gonio_16);
+	model.addAttribute("gonio_17", gonio_17);
+	model.addAttribute("gonio_18", gonio_18);
+	model.addAttribute("gonio_19", gonio_19);
+	model.addAttribute("gonio_20", gonio_20);
+	model.addAttribute("gonio_21", gonio_21);
+	model.addAttribute("gonio_22", gonio_22);
+	model.addAttribute("gonio_23", gonio_23);
+	model.addAttribute("gonio_24", gonio_24);
+	model.addAttribute("gonio_25", gonio_25);
+	model.addAttribute("gonio_26", gonio_26);
+	model.addAttribute("gonio_27", gonio_27);
+	model.addAttribute("gonio_28", gonio_28);
+	model.addAttribute("gonio_29", gonio_29);
+	model.addAttribute("gonio_30", gonio_30);
+	model.addAttribute("gonio_31", gonio_31);
+	model.addAttribute("gonio_32", gonio_32);
+	model.addAttribute("gonio_33", gonio_33);
+	model.addAttribute("gonio_34", gonio_34);
+	model.addAttribute("gonio_35", gonio_35);
+	model.addAttribute("gonio_36", gonio_36);
+	model.addAttribute("gonio_37", gonio_37);	
+		
+	//return "dashboard"; //padrao apos login
+	//return "result_dashboard"; //para visualizar os campos crus (teste)
+	return "dashboard_ficha";  //para travar os campos e exportar para Excel
+    }
+    
+    //Esse tah OK
+    @PostMapping("/hello")
+    public String sayHello(@RequestParam("name") String name, Model model) {
+	model.addAttribute("name", name);
+	return "result";
+    }
+
+
+    
+    @RequestMapping("/db")
+    String db(Map<String, Object> model) {
+	try (Connection connection = dataSource.getConnection()) {
+	    Statement stmt = connection.createStatement();
+	    stmt.executeUpdate("CREATE TABLE IF NOT EXISTS avaliacao (tick timestamp)");      
+	    stmt.executeUpdate("INSERT INTO ticks VALUES (now())");
+	    	    
+	    ResultSet rs = stmt.executeQuery("SELECT tick FROM ticks");
+	    
+	    ArrayList<String> output = new ArrayList<String>();
+	    while (rs.next()) {
+		output.add("Read from DB: " + rs.getTimestamp("tick"));
+	    }
+	    
+	    model.put("records", output);
+	    
+	    return "db";
+	} catch (Exception e) {
+	    model.put("message", e.getMessage());
+	    return "error";
+	}
+    }
+    
+
+    //GET: parameters vem na URL
+    //POST: parameters vem no corpo da mensagem
+    
+    /*    @RequestMapping(value="/validarlogin", method=RequestMethod.POST)
+    @ResponseBody
+    String validarlogin(@RequestBody Map<String, Object> model ) {
+    try (Connection connection = dataSource.getConnection()) {
+
+	//result eh a URL para direcionar caso o login esteja ok
+	String result="db";  //visualizar entrada do form -> post
+	
+	//String inputEmail = (String) request.getParameter("inputEmail");
+	//String inputPassword = (String) request.getParameter("inputPassword");
+	
+	Statement stmt = connection.createStatement();
+      
+	ResultSet rs = stmt.executeQuery("SELECT * FROM usuarios");
+
+	//Map<String, Object> model = new HashMap<String, Object>();
+	ArrayList<String> output = new ArrayList<String>();
+	output = new ArrayList<String>();
+
+	output.add(inputEmail);
+
+	//A chave primaria eh o e-mail
+	String email=new String();
+	String password=new String();
+	
+	while (rs.next()) {
+	    email = (String) rs.getObject(2);
+	    password = (String) rs.getObject(3);
+	    if (email.equals(inputEmail) &&
+		password.equals(inputPassword))
+		//login = ok -> redireciona para a URL do dashboard
+		result = "dashboard";
+	    
+	}//end while
+
+	model.put("records", output);
+	return "db";
+
+      //Redireciona para a URL
+      return result;
+      
+    } catch (Exception e) {
+	//model.put("message", e.getMessage());
+      return "error";
+    }
+    }
+    */    
+  @Bean
+  public DataSource dataSource() throws SQLException {
+    if (dbUrl == null || dbUrl.isEmpty()) {
+      return new HikariDataSource();
+    } else {
+      HikariConfig config = new HikariConfig();
+      config.setJdbcUrl(dbUrl);
+      return new HikariDataSource(config);
+    }
+  }
+
+}
+-----------
+LoginController.java
+
+package br.edu.utfpr;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+
+//@Autowired
+//private DataSource dataSource;
+
+@Controller
+public class LoginController {
+
+    @GetMapping("/")
+    public String index(Model model) {
+	//Faz o mapeamento
+        model.addAttribute("login", new Login());
+	//Retorna ah tela de view -> login.html
+        return "index";
+    }
+    
+    @GetMapping("/login")
+    public String loginForm(Model model) {
+	//Faz o mapeamento
+        model.addAttribute("login", new Login());
+	//Retorna ah tela de view -> index.html
+        return "index";
+    }
+
+    //Precisa do campo 'name' no input do form html
+    @PostMapping("/login")
+    public String loginPost(
+			    @RequestParam("email") String email,
+			    @RequestParam("senha") String senha,
+			    Model model) {
+	model.addAttribute("email", email);
+	model.addAttribute("senha", senha);	
+
+	return "dashboard";
+	//return "result";
+    }
+
+        //Precisa do campo 'name' no input do form html
+    @PostMapping("/gravar1")
+    public String gravar1(
+			  @RequestParam("ava_1") String ava_1,
+			  @RequestParam("ava_2") String ava_2,
+			  @RequestParam("ava_3") String ava_3,
+			  @RequestParam("ava_4") String ava_4,
+			  @RequestParam("ava_5") String ava_5,
+			  @RequestParam("ava_6") String ava_6,
+			  @RequestParam("ava_7") String ava_7,
+			  @RequestParam("ava_8") String ava_8,
+			  @RequestParam("ava_9") String ava_9,
+			  @RequestParam("ava_10") String ava_10,
+			  @RequestParam("ava_11") String ava_11,
+			  @RequestParam("ava_12") String ava_12,
+			  @RequestParam("ava_13") String ava_13,
+			  @RequestParam("ava_14") String ava_14,
+
+			  Model model) {       
+	
+	return "dashboard_ficha";  //para travar os campos e exportar para Excel
+    }
+    
+        //Precisa do campo 'name' no input do form html
+    @PostMapping("/finalizar")
+    public String finalizar(){
+	return "dashboard_ficha";  //para travar os campos e exportar para Excel
+    }
+    
+    //Esse tah OK
+    @PostMapping("/hello")
+    public String sayHello(@RequestParam("name") String name, Model model) {
+	model.addAttribute("name", name);
+	return "result";
+    }
+
+
+
+}
+
+------------
+
+	
+<!--	<div id="goniometria" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	    
+	    <table class="table table-striped" width="53%" border="1">
+	      <tr>
+		<td width="18%"><h4>Articulação</h4></td>
+		<td width="10%"><h4>Movimento</h4></td>
+		<td width="11%"><h4>Direito</h4></td>
+		<td width="15%"><h4>Esquerdo</h4></td>
+		<td width="7%"><h4>Dor</h4></td>
+		<td width="17%"><h4>Anatômico</h4></td>
+		<td><h4>Local da Dor</h4></td>
+	      </tr>
+	      <tr> 
+		<td rowspan="2">Ombro</td>
+		<td>Flexão</td>
+		<td>
+		  <p th:text="${gonio_1}"/>
+		</td>
+		<td>
+		  <p th:text="${gonio_2}"/>
+		</td>
+		<td>	
+		  <p th:text="${gonio_3}"/>	  
+		</td>
+		<td>
+		  <p th:text="${gonio_4}"/>	  		  
+		</td>
+		<td>
+		  <p th:text="${gonio_5}"/>		  
+		</td>
+	      </tr>
+	      <tr> 
+		<td>Rotação Externa</td>
+		<td>
+		  <p th:text="${gonio_6}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_7}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_8}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_9}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_10}"/>		  
+		</td>
+	      </tr>
+	      <tr> 
+		<td rowspan="2">Quadril</td>
+		<td>Flexão</td>
+		<td>
+		  <p th:text="${gonio_11}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_12}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_13}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_14}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_15}"/>		  
+		</td>
+	      </tr>
+	      <tr> 
+		<td>Rotação Externa</td>
+		<td>
+		  <p th:text="${gonio_16}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_17}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_18}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_19}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_20}"/>		  
+		</td>
+	      </tr>
+	      <tr> 
+		<td>Joelho</td>
+		<td>Flexão</td>
+		<td>
+		  <p th:text="${gonio_21}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_22}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_23}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_24}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_25}"/>		  
+		</td>
+	      </tr>
+	      <tr>		
+		<td rowspan="2">Tornozelo</td>
+		<td>Flexão Dorsal</td>
+		<td>
+		  <p th:text="${gonio_26}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_27}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_28}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_29}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_30}"/>		  
+		</td>		
+	      </tr>
+	      <tr> 
+		<td>Flexão Plantar</td>
+		<td>
+		  <p th:text="${gonio_31}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_32}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_33}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_34}"/>		  
+		</td>
+		<td>
+		  <p th:text="${gonio_35}"/>		  
+		</td>		
+	      </tr>
+	      <tr> 
+		<td>Observação:</td>
+		<td colspan="6">
+		  <p th:text="${gonio_36}"/>		  
+		</td>
+	      </tr>
+	      <tr>
+		<td>Sentar e levantar 30':</td>
+		<td colspan="6">
+		  <p th:text="${gonio_37}"/>
+		</td>
+	      </tr>
+	    </table>
+	  </form>
+	</div>
+	<!-- -->
+
+	<!-- -->
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <table class="table table-striped" width="53%" border="1">
+	    <tr>
+	      <td><h3 class="form-signin-heading">Teste de Preensão Palmar</h3></td>
+	      <td width="5%"><button class="btn btn-lg btn-primary btn-block" onclick="ocultarPreensao()">+</button></td>
+	    </tr>
+	  </table>
+	</div>
+	<!-- -->
+
+	<!-- 
+	<div id="preensao" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	  <form action="gravar3" class="form-horizontal" method="post">
+	    
+	    <table class="table table-striped" width="53%" border="1">
+	      <tr> 
+		<td width="20%">
+		  Data da Avaliação:
+		</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataAvaliacao" name="dataAvaliacao" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="10%">Data de Nascimento:</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataNascimento" name="dataNascimento" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="5%">Idade:</td>
+		<td colspan="4">
+		  <input type="number" id="idade" name="idade" class="form-control" placeholder="Idade" autofocus>
+		</td>
+	      </tr>
+	    </table>
+	    <button class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button>
+	  </form>
+	</div>
+	<!-- -->
+
+	<!-- -->
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <table class="table table-striped" width="53%" border="1">
+	    <tr>
+	      <td><h3 class="form-signin-heading">Composição Corporal</h3></td>
+	      <td width="5%"><button class="btn btn-lg btn-primary btn-block" onclick="ocultarComposicao()">+</button></td>
+	    </tr>
+	  </table>
+	</div>
+	<!-- -->
+
+	<!-- 
+	<div id="composicao" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	  <form action="gravar4" class="form-horizontal" method="post">
+	    
+	    <table class="table table-striped" width="53%" border="1">
+	      <tr> 
+		<td width="20%">
+		  Data da Avaliação:
+		</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataAvaliacao" name="dataAvaliacao" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="10%">Data de Nascimento:</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataNascimento" name="dataNascimento" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="5%">Idade:</td>
+		<td colspan="4">
+		  <input type="number" id="idade" name="idade" class="form-control" placeholder="Idade" autofocus>
+		</td>
+	      </tr>
+	    </table>
+	    <button class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button>
+	  </form>
+	</div>
+	<!-- -->
+
+	<!-- -->
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <table class="table table-striped" width="53%" border="1">
+	    <tr>
+	      <td><h3 class="form-signin-heading">Avaliação de Dor</h3></td>
+	      <td width="5%"><button class="btn btn-lg btn-primary btn-block" onclick="ocultarDor()">+</button></td>
+	    </tr>
+	  </table>
+	</div>
+	<!-- -->
+
+	<!-- 
+	<div id="dor" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	  <form action="gravar5" class="form-horizontal" method="post">
+	    
+	    <table class="table table-striped" width="53%" border="1">
+	      <tr> 
+		<td width="20%">
+		  Data da Avaliação:
+		</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataAvaliacao" name="dataAvaliacao" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="10%">Data de Nascimento:</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataNascimento" name="dataNascimento" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="5%">Idade:</td>
+		<td colspan="4">
+		  <input type="number" id="idade" name="idade" class="form-control" placeholder="Idade" autofocus>
+		</td>
+	      </tr>
+	    </table>
+	    <button class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button>
+	  </form>
+	</div>
+	<!-- -->
+
+	<!-- -->
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <table class="table table-striped" width="53%" border="1">
+	    <tr>
+	      <td><h3 class="form-signin-heading">Guralnick</h3></td>
+	      <td width="5%"><button class="btn btn-lg btn-primary btn-block" onclick="ocultarGuralnick()">+</button></td>
+	    </tr>
+	  </table>
+	</div>
+	<!-- -->
+
+	<!-- 
+	<div id="guralnick" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	  <form action="gravar6" class="form-horizontal" method="post">
+	    
+	    <table class="table table-striped" width="53%" border="1">
+	      <tr> 
+		<td width="20%">
+		  Data da Avaliação:
+		</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataAvaliacao" name="dataAvaliacao" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="10%">Data de Nascimento:</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataNascimento" name="dataNascimento" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="5%">Idade:</td>
+		<td colspan="4">
+		  <input type="number" id="idade" name="idade" class="form-control" placeholder="Idade" autofocus>
+		</td>
+	      </tr>
+	    </table>
+	    <button class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button>
+	  </form>
+	</div>
+	<!-- -->
+
+	<!-- -->
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <table class="table table-striped" width="53%" border="1">
+	    <tr>
+	      <td><h3 class="form-signin-heading">Qualidade de Vida</h3></td>
+	      <td width="5%"><button class="btn btn-lg btn-primary btn-block" onclick="ocultarQualidade()">+</button></td>
+	    </tr>
+	  </table>
+	</div>
+	<!-- -->
+
+	<!-- 
+	<div id="qualidade" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	  <form action="gravar7" class="form-horizontal" method="post">
+	    
+	    <table class="table table-striped" width="53%" border="1">
+	      <tr> 
+		<td width="20%">
+		  Data da Avaliação:
+		</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataAvaliacao" name="dataAvaliacao" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="10%">Data de Nascimento:</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataNascimento" name="dataNascimento" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="5%">Idade:</td>
+		<td colspan="4">
+		  <input type="number" id="idade" name="idade" class="form-control" placeholder="Idade" autofocus>
+		</td>
+	      </tr>
+	    </table>
+	    <button class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button>
+	  </form>
+	</div>
+	<!-- -->				
+
+	<!-- -->
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <table class="table table-striped" width="53%" border="1">
+	    <tr>
+	      <td><h3 class="form-signin-heading">Força</h3></td>
+	      <td width="5%"><button class="btn btn-lg btn-primary btn-block" onclick="ocultarForca()">+</button></td>
+	    </tr>
+	  </table>
+	</div>
+	<!-- -->
+
+	<!-- 
+	<div id="forca" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	  <form action="gravar8" class="form-horizontal" method="post">
+	    
+	    <table class="table table-striped" width="53%" border="1">
+	      <tr> 
+		<td width="20%">
+		  Data da Avaliação:
+		</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataAvaliacao" name="dataAvaliacao" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="10%">Data de Nascimento:</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataNascimento" name="dataNascimento" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="5%">Idade:</td>
+		<td colspan="4">
+		  <input type="number" id="idade" name="idade" class="form-control" placeholder="Idade" autofocus>
+		</td>
+	      </tr>
+	    </table>
+	    <button class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button>
+	  </form>
+	</div>
+	<!-- -->
+
+	<!-- -->
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <table class="table table-striped" width="53%" border="1">
+	    <tr>
+	      <td><h3 class="form-signin-heading">Pressão Arterial</h3></td>
+	      <td width="5%"><button class="btn btn-lg btn-primary btn-block" onclick="ocultarPressao()">+</button></td>
+	    </tr>
+	  </table>
+	</div>
+	<!-- -->
+
+	<!-- 
+	<div id="pressao" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">		    
+	  <form action="gravar9" class="form-horizontal" method="post">
+	    
+	    <table class="table table-striped" width="53%" border="1">
+	      <tr> 
+		<td width="20%">
+		  Data da Avaliação:
+		</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataAvaliacao" name="dataAvaliacao" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="10%">Data de Nascimento:</td>
+		<td width="20%">
+		  <div class="col-sm-25">
+		    <div class="input-group">
+		      <div class="input-group-addon">
+			<i class="fa fa-calendar">
+			</i>
+		      </div>
+		      <input class="form-control" id="dataNascimento" name="dataNascimento" placeholder="MM/DD/YYYY" type="text"/>
+		    </div>
+		  </div>
+		</td>
+		<td width="5%">Idade:</td>
+		<td colspan="4">
+		  <input type="number" id="idade" name="idade" class="form-control" placeholder="Idade" autofocus>
+		</td>
+	      </tr>
+	    </table>
+	    <button class="btn btn-lg btn-primary btn-block" type="submit">Gravar</button>
+	  </form>
+	</div>
+	<!-- -->
+
+	<!-- 
+	<div id="finalizar" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <form class="form-signin" action="finalizar" method="post" onsubmit="return validate()">
+	    <button class="button button_red" type="submit">Finalizar Cadastro</button>
+	  </form>
+	</div>
+	<!-- -->
+
+      </div>
+    </div>
+    
+<br/>
+<br/>
+<br/>
+<br/>
+	<!-- -->
+
+	<!-- -->
+	<div id="rodape" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	  <h5>&copy; Instituto Biodelta - 2018</h5>
+	</div>
+	<!-- -->
+
+
+///////////////
+		document.getElementById('update1').addEventListener('click', function() {
+			if (barChartData.datasets.length > 0) {
+			   var month = MONTHS[barChartData.labels.length % MONTHS.length];
+			   barChartData.labels.push(month);
+
+			   barChartData.data.datasets.forEach((dataset) => {
+                            //dataset.data.push(data);
+ 	    var x = 100;
+	    //document.getElementById("update2").value;
+	                    dataset.data.push(x);
+	                    });
+             //	            barChartData.update();
+	                    window.myBar.update();
+	                }
+	         });	    	    
+
+;;;;;;;;;;;;;;;;;;
+
+	<!-- Chart.js -->
+	<script>
+		var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+		var color = Chart.helpers.color;
+		var barChartData = {
+			labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+			datasets: [{
+				label: 'Peso 1',
+				backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+				borderColor: window.chartColors.red,
+				borderWidth: 1,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}, {
+				label: 'Peso 2',
+				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+				borderColor: window.chartColors.blue,
+				borderWidth: 1,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}]
+
+		};
+		
+		window.onload = function() {
+			var ctx = document.getElementById('canvas').getContext('2d');
+			window.myBar = new Chart(ctx, {
+				type: 'bar',
+				data: barChartData,
+				options: {
+					responsive: true,
+					legend: {
+						position: 'top',
+					},
+					title: {
+						display: true,
+						text: 'Peso'
+					}
+				}
+			});
+
+		};
+
+		document.getElementById('randomizeData').addEventListener('click', function() {
+			var zero = Math.random() < 0.2 ? true : false;
+			barChartData.datasets.forEach(function(dataset) {
+				dataset.data = dataset.data.map(function() {
+					return zero ? 0.0 : randomScalingFactor();
+				});
+
+			});
+			window.myBar.update();
+		});
+
+		var colorNames = Object.keys(window.chartColors);
+		document.getElementById('addDataset').addEventListener('click', function() {
+			var colorName = colorNames[barChartData.datasets.length % colorNames.length];
+			var dsColor = window.chartColors[colorName];
+			var newDataset = {
+				label: 'Peso ' + barChartData.datasets.length,
+				backgroundColor: color(dsColor).alpha(0.5).rgbString(),
+				borderColor: dsColor,
+				borderWidth: 1,
+				data: []
+			};
+
+			for (var index = 0; index < barChartData.labels.length; ++index) {
+				newDataset.data.push(randomScalingFactor());
+			}
+
+			barChartData.datasets.push(newDataset);
+			window.myBar.update();
+		});
+
+		document.getElementById('addData').addEventListener('click', function() {
+			if (barChartData.datasets.length > 0) {
+				var month = MONTHS[barChartData.labels.length % MONTHS.length];
+				barChartData.labels.push(month);
+
+				for (var index = 0; index < barChartData.datasets.length; ++index) {
+					// window.myBar.addData(randomScalingFactor(), index);
+					barChartData.datasets[index].data.push(randomScalingFactor());
+				}
+
+				window.myBar.update();
+			}
+							    });
+
+
+		document.getElementById('removeDataset').addEventListener('click', function() {
+			barChartData.datasets.splice(0, 1);
+			window.myBar.update();
+		});
+
+		document.getElementById('removeData').addEventListener('click', function() {
+			barChartData.labels.splice(-1, 1); // remove the label first
+
+			barChartData.datasets.forEach(function(dataset) {
+				dataset.data.pop();
+			});
+
+			window.myBar.update();
+							    });
+
+	    //		var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+		document.getElementById('update1').addEventListener('click', function() {
+			if (barChartData.datasets.length > 0) {
+				var month = MONTHS[barChartData.labels.length % MONTHS.length];
+				barChartData.labels.push(month);
+
+						   //Essas linhas funcionam para 1 valor, mas quero para N valores
+						   //var x = 100;
+						   //x = document.getElementById("update2").value;
+						   //var index=0;
+						   //barChartData.datasets[index].data.push(x);
+						   
+						   //var x = [ 100, 200, 300 ];
+						   var ava_peso = document.getElementById("ava_peso").value;
+						   vat x = ava_peso.split(" ");
+						   for (var index = 0; index < x.length; ++index) {
+									       barChartData.datasets[index].data.push(x[index]);
+									       window.myBar.update();
+									       }
+				//window.myBar.update();
+			}
+							    });
+
+
+	</script>
+
+///////////////////////
+Funcional!
+
+		document.getElementById('update1').addEventListener('click', function() {
+							    
+			var month = MONTHS[barChartData.labels.length % MONTHS.length];
+			barChartData.labels.push(month);
+							    
+						   //Essas linhas funcionam para 1 valor, mas quero para N valores
+						   //var x = 100;
+						   //x = document.getElementById("update2").value;
+						   //var index=0;
+						   //barChartData.datasets[index].data.push(x);
+						   
+   						   var ava_peso = document.getElementById("ava_peso").value;
+						   var x = ava_peso.split(" ");
+						   for (var index = 0; index < x.length; ++index) {
+
+						       var colorName = colorNames[barChartData.datasets.length % colorNames.length];
+						       var dsColor = window.chartColors[colorName];
+							var newDataset = {
+							      label: 'Peso ' + barChartData.datasets.length,
+							       backgroundColor: color(dsColor).alpha(0.5).rgbString(),
+							       borderColor: dsColor,
+							       borderWidth: 1,
+							       data: []
+							 };
+									       newDataset.data.push(x[index]);					       									          barChartData.datasets.push(newDataset);
+									       
+									       //barChartData.datasets[index].data.push(x[index]);
+									       window.myBar.update();
+									       }									       			
+							    });
+///////////////////
+		document.getElementById('randomizeData').addEventListener('click', function() {
+			var zero = Math.random() < 0.2 ? true : false;
+			barChartData.datasets.forEach(function(dataset) {
+				dataset.data = dataset.data.map(function() {
+					return zero ? 0.0 : randomScalingFactor();
+				});
+
+			});
+			window.myBar.update();
+		});
+
+		var colorNames = Object.keys(window.chartColors);
+		document.getElementById('addDataset').addEventListener('click', function() {
+			var colorName = colorNames[barChartData.datasets.length % colorNames.length];
+			var dsColor = window.chartColors[colorName];
+			var newDataset = {
+				label: 'Peso ' + barChartData.datasets.length,
+				backgroundColor: color(dsColor).alpha(0.5).rgbString(),
+				borderColor: dsColor,
+				borderWidth: 1,
+				data: []
+			};
+
+			for (var index = 0; index < barChartData.labels.length; ++index) {
+						    //newDataset.data.push(randomScalingFactor());
+						    newDataset.data.push(50);
+			}
+
+			barChartData.datasets.push(newDataset);
+			window.myBar.update();
+		});
+
+		document.getElementById('addData').addEventListener('click', function() {
+			if (barChartData.datasets.length > 0) {
+				var month = MONTHS[barChartData.labels.length % MONTHS.length];
+				barChartData.labels.push(month);
+
+				for (var index = 0; index < barChartData.datasets.length; ++index) {
+					// window.myBar.addData(randomScalingFactor(), index);
+					barChartData.datasets[index].data.push(randomScalingFactor());
+				}
+
+				window.myBar.update();
+			}
+							    });
+
+
+		document.getElementById('removeDataset').addEventListener('click', function() {
+			barChartData.datasets.splice(0, 1);
+			window.myBar.update();
+		});
+
+
+///////
+		  <button id="randomizeData">Randomize Data</button>
+
+
+		document.getElementById('addDataset').addEventListener('click', function() {
+			var colorName = colorNames[barChartData.datasets.length % colorNames.length];
+			var dsColor = window.chartColors[colorName];
+			var newDataset = {
+				label: 'Peso ' + barChartData.datasets.length,
+				backgroundColor: color(dsColor).alpha(0.5).rgbString(),
+				borderColor: dsColor,
+				borderWidth: 1,
+				data: []
+			};
+
+			for (var index = 0; index < barChartData.labels.length; ++index) {
+						    //newDataset.data.push(randomScalingFactor());
+						    newDataset.data.push(50);
+			}
+
+			barChartData.datasets.push(newDataset);
+			window.myBar.update();
+		 });
+
+		document.getElementById('removeDataset').addEventListener('click', function() {
+			barChartData.datasets.splice(0, 1);
+			window.myBar.update();
+		});
+
+		document.getElementById('addData').addEventListener('click', function() {
+			if (barChartData.datasets.length > 0) {
+				var month = MONTHS[barChartData.labels.length % MONTHS.length];
+				barChartData.labels.push(month);
+
+				for (var index = 0; index < barChartData.datasets.length; ++index) {
+					// window.myBar.addData(randomScalingFactor(), index);
+					barChartData.datasets[index].data.push(randomScalingFactor());
+				}
+
+				window.myBar.update();
+			}
+							    });
+
+		document.getElementById('removeData').addEventListener('click', function() {
+			barChartData.labels.splice(-1, 1); // remove the label first
+
+			barChartData.datasets.forEach(function(dataset) {
+				dataset.data.pop();
+			});
+
+			window.myBar.update();
+							    });		
+////////////////////////
+
+    
+       @PostMapping("/importar")
+       String importar( Map<String, Object> model) {
+
+	   String arq = ARQUIVO_ENTRADA + MIN_INDICE + "_" + MAX_INDICE + ".txt";
+	   try{
+
+	       ClassLoader cl = this.getClass().getClassLoader();
+	       InputStream inputStream = cl.getResourceAsStream(arq);
+
+	       URL url = ResourceUtils.getURL("classpath:"+arq);
+
+	       BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+	       String line;
+	       
+	       ArrayList<String> output = new ArrayList<String>();
+	       while ((line = bufferedReader.readLine()) != null) {
+		   
+		   //File is found
+		   output.add(line);
+	       }
+
+	       model.put("message", output);		   
+	       return "error";
+	       
+	   } catch (Exception e){
+	       e.printStackTrace();
+	       return "error";
+	   }
+	 
+       }
+    
+    @PostMapping("/importar3")
+    String importar3( Map<String, Object> model) {
+
+	StringBuilder result = new StringBuilder("");
+	//Abre o arquivo
+	String arq = ARQUIVO_ENTRADA + MIN_INDICE + "_" + MAX_INDICE + ".txt";	
+	ClassPathResource resource = new ClassPathResource(arq);
+
+	try (InputStream inputStream = resource.getInputStream()) {
+	    
+	    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+	    String line;
+	    
+	    while ((line = bufferedReader.readLine()) != null) {
+		result.append(line);
+	    }
+	    inputStream.close();
+	} catch (IOException e) {
+	    e.printStackTrace();
+	}
+	return "db";
+    }
+
+///////////////////////
+    ///////////////
+
+
+    //@Value("public/arquivos/arq.txt")
+    //private ClassPathResource resource;
+    @PostMapping("/importar4")
+    public String importar4(Map<String, Object> model){
+
+	ArrayList<String> output = new ArrayList<String>();
+	String arq = ARQUIVO_ENTRADA + MIN_INDICE + "_" + MAX_INDICE + ".txt";
+	ClassPathResource resource = new ClassPathResource(arq);	    
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(resource.getInputStream(), StandardCharsets.UTF_8))) {
+
+	    ////
+	    String linha="";
+	    while ((linha = br.readLine()) != null) {	
+		//File is found
+		output.add(linha);
+	    }
+	    model.put("message", output);		   
+	    return "error";
+
+	    /////
+        } catch (Exception e){
+	    e.printStackTrace();
+	    return "error";
+	}
+	
+    }
+
+    
+    /////////////////
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+//////////////
+
+      <!--
+      <form method="post" class="navbar-form navbar-right">	
+	<button formaction="excluirbase1" class="btn btn-lg btn-primary btn-block" type="submit">Remover Avaliacao</button>
+     </form>      
+      <form method="post" class="navbar-form navbar-right">	
+       <button formaction="excluirbase4" class="btn btn-lg btn-primary btn-block" type="submit">Remover Composição</button>
+     </form>      
+      <form method="post" class="navbar-form navbar-right">
+       <button formaction="excluirbase5" class="btn btn-lg btn-primary btn-block" type="submit">Remover EvolucaoDor</button>
+     </form>
+
+      <form method="post" class="navbar-form navbar-right">
+       <button formaction="excluirbase6" class="btn btn-lg btn-primary btn-block" type="submit">Remover Base Usuários</button>
+     </form>
+-->
+
+<!--	  <tr>
+	    <td>
+	      <button formaction="importar1" class="btn btn-lg btn-primary btn-block" type="submit">1.Importar Avaliacao</button>
+	    <td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <button formaction="importar2" class="btn btn-lg btn-primary btn-block" type="submit">2.Importar Goniometria</button>
+	    <td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <button formaction="importar3" class="btn btn-lg btn-primary btn-block" type="submit">3.Importar Preensao</button>
+	    <td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <button formaction="importar4" class="btn btn-lg btn-primary btn-block" type="submit">4.Importar Composição</button>
+	    <td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <button formaction="importar5" class="btn btn-lg btn-primary btn-block" type="submit">5.Importar Outros</button>
+	    <td>
+	  </tr>
+-->

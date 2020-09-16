@@ -1,0 +1,5 @@
+{
+  "name": "Saphira project",
+  "description": "Saphira project",
+  "addons": [ "heroku-postgresql" ]
+}
